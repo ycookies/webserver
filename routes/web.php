@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/ar', function () {
+    return response()->json(['code'=>100],200);
+});
